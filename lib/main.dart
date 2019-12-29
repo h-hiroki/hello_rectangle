@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const _padding = EdgeInsets.all(16.0);
+
 void main() {
   runApp(
     MaterialApp(
@@ -20,6 +22,7 @@ class HelloRectangle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
+        padding: _padding,
         color: Colors.greenAccent,
         height: 400.0,
         width: 300.0,
